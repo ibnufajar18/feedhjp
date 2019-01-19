@@ -1,0 +1,20 @@
+  <div id='demo'/>
+<script>
+
+  function feedhjp(home){
+jmlpos=home.feed.openSearch$totalResults[&#39;$t&#39;];
+
+displayhjp();
+  }
+feedhjp();
+function displayhjp(){
+document.getElementById(&#39;demo&#39;).innerHTML=jmlpos
+                                         }               
+</script>
+ 
+
+
+
+  <script src='https://feedhjp.blogspot.coma'/>
+  <script src='https://raw.githubusercontent.com/ibnufajar18/feedhjp/master/feeda'/>
+  <script src='https://www.blogger.com/feeds/1272787691999972597/posts/default?q=bomber&amp;alt=json-in-script&amp;start-index=1&amp;max-results=2&amp;callback=feedhjp'/>
